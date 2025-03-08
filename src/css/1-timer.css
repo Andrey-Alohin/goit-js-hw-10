@@ -21,6 +21,7 @@ div.timer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  margin-bottom: 32px;
   transition: border-color ease-in-out 250ms, color ease-in-out 250ms;
 }
 input.flatpickr-input:hover,
@@ -67,4 +68,22 @@ span.flatpickr-day.selected {
 span.flatpickr-day:hover,
 span.flatpickr-day:focus {
   background-color: #c1c1c1;
+}
+.field {
+  text-align: center;
+}
+.field > .value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.field > .label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
